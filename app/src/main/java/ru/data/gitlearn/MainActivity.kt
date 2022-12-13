@@ -7,8 +7,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         test(generateInt())
+        
+        val hello = "Hello"
     }
 
     private fun generateInt() = Math.random().toInt()
