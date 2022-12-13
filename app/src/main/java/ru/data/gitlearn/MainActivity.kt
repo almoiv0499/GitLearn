@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         val hello = "Hello"
         val hello1 = "Hello"
         val hello2 = "Hello"
+        val hello3 = "Hello"
     }
 
     private fun generateInt() = Math.random().toInt()
