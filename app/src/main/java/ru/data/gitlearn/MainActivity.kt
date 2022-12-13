@@ -7,12 +7,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        
+        val hello = "Hello"
+        val hello1 = "Hello"
+        val hello2 = "Hello"
+        val hello3 = "Hello"
+      
         test(generateString())
         test1(generateString())
         test1(generateString())
-
-
     }
 
     private fun generateString(): String = "Testing"
