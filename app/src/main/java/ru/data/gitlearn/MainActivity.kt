@@ -8,8 +8,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        test()
+        test(generateInt())
     }
 
-    private fun test(): String = "Hello world!"
+    private fun generateInt() = Math.random().toInt()
+
+    private fun test(value: Int): String = "Hello world! $value"
+
 }
