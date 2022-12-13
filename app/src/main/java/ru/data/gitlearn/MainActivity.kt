@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         val hello1 = "Hello"
         val hello2 = "Hello"
         val hello3 = "Hello"
-      
+        val hello4 = "Hello"
+
         test(generateString())
         test1(generateString())
         test1(generateString())
