@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         test(generateInt())
         
         val hello = "Hello"
+        val hello1 = "Hello"
+        val hello2 = "Hello"
     }
 
     private fun generateInt() = Math.random().toInt()
