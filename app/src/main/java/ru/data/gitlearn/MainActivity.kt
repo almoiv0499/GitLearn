@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         test(generateString())
         test1(generateString())
         test1(generateString())
+        test(generateString())
     }
 
     private fun generateString(): String = "Testing"
