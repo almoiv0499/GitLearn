@@ -7,16 +7,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        test(generateInt())
         
         val hello = "Hello"
         val hello1 = "Hello"
         val hello2 = "Hello"
         val hello3 = "Hello"
+      
+        test(generateString())
+        test1(generateString())
+        test1(generateString())
     }
 
-    private fun generateInt() = Math.random().toInt()
+    private fun generateString(): String = "Testing"
 
-    private fun test(value: Int): String = "Hello world! $value"
+    private fun test(value: String): String = "Hello world! $value"
+    private fun test1(value: String): String = "Hello world! $value"
 
 }
